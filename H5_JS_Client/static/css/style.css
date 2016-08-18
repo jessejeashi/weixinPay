@@ -1,0 +1,120 @@
+body {
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 640px;
+	/*height: 100%;*/
+	font-family: "Microsoft YaHei";
+}
+
+.goods_container {
+	position: relative;
+	width: 100%;
+	/*height: 100%;*/
+	text-align:center;
+	padding-bottom: 90px;
+}
+
+img{
+  width:100%;
+  max-width:640px;
+}
+
+#goods_separator {
+	margin: 15px 0 15px 0;
+	border-style:none none solid none;
+	border-color: #C1CDCD;
+	border-width:0.2px;
+}
+
+#goods_price {
+	padding: 0 12px 0 12px;
+}
+
+#item_logo {
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+#item_des {
+	float: left;
+	margin-left: 5px;
+	letter-spacing:3px;
+	font-size: 17px;
+	color: #fe243d;
+	font-weight: bold;
+}
+
+#item_price {
+	float: right;
+	margin-left: 5px;
+	letter-spacing:1px;
+	font-size: 19px;
+	color: #fe243d;
+	font-weight: bold;
+}
+
+#clear_float {
+	clear: both;
+}
+
+
+#goods_title {
+	margin: 25px 0 15px 0;
+	letter-spacing:2px;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0 12px 0 12px;
+	color:#000000;
+}
+
+#goods_detail {
+	text-align:left;
+	letter-spacing:2px;
+	font-size: 19px;
+	padding: 0 12px 0 12px;
+	margin: 0;
+	color:#999999;
+}
+
+.fixed_bottom {
+	position: fixed;
+	width: 100%;
+	background-color:#fff; 
+    max-width: 640px;
+    padding: 0 0 9px 0;
+    bottom: 0;
+}
+
+#bottom_left {
+	float: left;
+}
+
+#bottom_pic {
+	position: relative;
+	width: 131.5px;
+	height: 56.5px;
+	z-index: 998;
+}
+
+#bottom_txt {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	z-index: 999;
+	left: 18px;
+	top: 7px;
+}
+
+#btn_purchase {
+  font-size: 30px;
+  color: white;
+  background-color: #fe243d;
+  border: 0px;
+  border-radius:7px;
+  width: 152.5px;
+  height: 51.5px;
+  float:right;
+  text-align:center;
+  padding-top: 5px;
+}

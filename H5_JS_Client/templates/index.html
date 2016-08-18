@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta http-equiv="Expires" content="0"/>
+        <script type="text/javascript" src="../bundle.js"></script>
+    </head>
+    <body>
+        <div class="goods_container" ms-controller="goods_container">
+        <section id="goods_banner">
+        	<div id="banner"><img ms-src="{{banner_pic}}"></div>
+        </section>
+        <section id="goods_separator"></section>
+        <section id="goods_price">
+        	<div class="item_price_bar">
+        	    <img id="item_logo" ms-src="{{item_logo}}">
+        		<span id="item_des">{{item_des}}</span>
+        		<span id="item_price">{{currency}} {{item_price}}</span>
+        		<div id="clear_float"></div>
+        	</div>
+        </section>
+        	<div id="goods_title">{{goods_title}}</div>
+        	<div id="goods_detail">{{goods_detail}}</div>
+        <div class="fixed_bottom">
+        	<div id="bottom_left"><img id="bottom_pic" ms-src="{{bottom_pic}}"><div id="bottom_txt">{{bottom_left}}</div></div>
+        	<span id="btn_purchase" ms-click="on_purchase()"><div id="btn_txt">{{bottom_right}}</div></span>
+        </div>
+        </div>
+    </body>
+</html>
